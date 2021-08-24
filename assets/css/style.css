@@ -1,0 +1,224 @@
+@media (max-width: 991.5px) { /* это будет показано при разрешении монитора до 930 пикселей */
+.in-center-img
+    {
+        visibility: hidden;
+    }
+}
+
+.video-background-holder {
+  position: relative;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+      z-index: 0;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+    margin: 50px auto 50px auto;
+ 
+}
+.video-background-content>div>div
+{
+    margin-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tite-text-head
+{
+   margin-top: 40px; 
+
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(128,0,128, 0.5);
+  
+  z-index: 1;
+}
+
+
+
+.img-lvl-up
+{
+   
+    height: 400px;
+    text-align: center;
+
+}
+.img-lvl-up>img
+{
+    width: 15rem;
+}
+.txt-lvl-up
+{
+  
+}
+
+ .btn-head
+{
+    border: none;
+    
+    background-color: #ebb30c;
+    color: #212529;
+    width: 60%;
+    border-radius: 30px;
+      display: block;
+    margin: auto;
+    
+    height: 60px;
+    font-size: 24px;
+}
+ .btn-head:hover
+{
+    background-color: #ffc30f;
+    color: #212529;
+}
+
+.block1
+{
+
+  margin-top: 20px; 
+
+}
+.in-center-img
+{
+    position: relative;
+    height: 100%;
+}
+.in-center-img>img
+{
+   
+  position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.in-box>div>div
+{
+
+ /* background: rgb(221,160,221);*/
+    background: url(../img/fontabl.jpg);
+    background-size: 200px;
+    
+    margin: 20px 0;   
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+.in-box>div>div>div
+{
+ background: rgba(128,0,128, 0.5);    
+    padding-top: 20px;
+    height: 100%;
+
+}
+.in-box-img
+{
+    width: 150px;
+    height: 150px;
+      display: block;
+    margin: auto;
+    border-radius: 90px;
+    overflow: hidden;
+    border: solid white 5px;
+     
+}
+
+.in-box-img>img
+{
+    height: 200%;
+    margin: -5%;
+}
+.carusel-img-box
+{
+    width: 150px;
+    height: 150px;
+    border: solid white 4px;
+    overflow: hidden;
+     display: inline-block;
+    margin: 20px;
+    -webkit-box-shadow: 9px 5px 10px 0px rgba(50, 50, 50, 0.3);
+-moz-box-shadow:    9px 5px 10px 0px rgba(50, 50, 50, 0.3);
+box-shadow:         9px 5px 10px 0px rgba(50, 50, 50, 0.3);
+}
+
+.in-box-txt
+{
+    margin-top: 20px;
+    background: rgba(255,255,255,0.8);
+}
+.container-carusel
+{
+ background: rgba(128,0,128, 0.5); 
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+.carousel-inner
+{
+        background: rgba(255,255,255,0.8);
+
+}
+.fon-carusel
+{
+
+ /* background: rgb(221,160,221);*/
+    background: url(../img/fontabl.jpg);
+    background-size: 200px;
+}
+.name-autor
+{
+    color: #212529;
+    display: inline-block;
+vertical-align:top;   
+    margin-top: 20px;
+}
+.name-autor>h2
+{
+    margin-bottom: 20px;
+}
+.krai
+{
+            background: rgba(255,255,255,0.8);
+    height: 100%;
+
+}
+.otziv
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+        color: #212529;
+
+}
+.carousel-item
